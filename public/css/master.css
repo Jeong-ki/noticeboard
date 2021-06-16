@@ -1,3 +1,27 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+.breadcrumb-item {
+  font-size: 0.8em !important;
+}
+.ellipsis{
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* 해당 element의 text가 너무 길 경우 ...로 표시 */
+}
+
+.board-table {
+  table-layout: fixed;
+}
+.board-table .date {
+  width: 100px;
+}
+
+.post-body{
+  white-space: pre-line; /* 게시글 본문(HTML)의 줄바꿈 \n을 사용하게 해줌  */
+}
+.post-info{
+  font-size: 0.8em;
+}
